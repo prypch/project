@@ -7,7 +7,7 @@ int *random(int choice) // random percentage of interest
 {
     srand((unsigned int)time(NULL));
     for (int i = 0; i < choice; ++i) // random and get same number
-    {
+    {gjjl
         fund[i] = (rand() % 6) + 3;
     }
     return fund;
